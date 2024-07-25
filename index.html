@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora de gorjeta</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+</head>
+<body>
+    
+    <div class="calculadora">
+        <h2>Calculo de valores</h2>
+        <label for="valor1">Valor 1:</label>
+        <input type="number" id="valor1" placeholder="" step=""/>
+        <label for="valor2">Valor 2:</label>
+        <input type="number" id="valor2" placeholder="" step=""/>
+        <label for="valor3">Valor 3:</label>
+        <input type="number" id="valor3" placeholder="" step=""/>
+        <label for="valor4">Valor 4:</label>
+        <input type="number" id="valor4" placeholder="" step=""/>
+        
+        <label for="operacao">Operação:</label>
+        <select id="operacao">
+            <option value="1">Adição</option>
+            <option value="2">Subtração</option>
+            <option value="3">Mutiplicação</option>
+            <option value="4">Divisão</option>
+            <option value="5">Média</option>
+        </select>
+
+        <div>
+            <div class="resultado">
+                <label for="resultado">Resultado:</label>
+                <input type="text" id="resultado" disabled/>
+                <button onclick="calculadora()">Calcular</button>
+                <button onclick="limparCampo()">Limpar Campo</button>
+                
+        </div>
+        
+        </div>
+        
+        
+        
+    
+</body>
+</html>
